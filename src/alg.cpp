@@ -40,7 +40,7 @@ std::string infx2pstfx(std::string inf) {
                 s1.pop();
             }
             s1.pop();
-        } else if (oper(inf[i])) {
+        } else if (op(inf[i])) {
             while (!s1.isEmpty() && pr(inf[i]) <= pr(s1.get())) {
                 st += s1.get();
                 st += " ";
