@@ -20,8 +20,8 @@ int numb(char x) {
     return (x <= '9' && x >= '0');
 }
 
-int op(char c) {
-    return (c == '-' || c == '+' || c == '/' || c == '*');
+int op(char m) {
+    return (m == '-' || m == '+' || m == '/' || m == '*');
 }
 
 std::string infx2pstfx(std::string inf) {
